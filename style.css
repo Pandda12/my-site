@@ -3,12 +3,14 @@
 }
 
 body {
-    background-color: #0F1145;
+    /*background-color: #0F1145;*/
+    background: linear-gradient(12deg, #040D3E 14%, #3B1D60 95%);
     margin: 0 auto;
     display: flex;
     justify-content: center;
     flex-direction: column;
     max-width: 1100px;
+    font-family: 'Rubik', serif;
 }
 
 header {
@@ -18,6 +20,7 @@ header {
 .first-header {
     display: flex;
     justify-content: space-between;
+    text-transform: uppercase;
 }
 
 .first-header-left {
@@ -51,12 +54,40 @@ header {
 .first-header-right-buttons>div {
     height: 40px;
     width: 112px;
-    color: #F2994A;
     border: 1px solid #F2994A;
     border-radius: 4px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.sing-in{
+    margin: 0 20px;
+    color: #F2994A;
+}
+
+.sing-up{
+    background-color: #F2994A;
+    color: white;
+}
+
+.frame-1{
+
+}
+
+.title-bis{
+    font-size: 44px;
+    color: #99EFD0;
+    font-weight: bold;
+}
+
+.desc{
+    color: #8476AA;
+    font-size: 18px;
+}
+
+.run-man{
+   background-image: url(img/run-man.svg);
 }
 
 main {
