@@ -61,33 +61,65 @@ header {
     align-items: center;
 }
 
-.sing-in{
+.sing-in {
     margin: 0 20px;
     color: #F2994A;
 }
 
-.sing-up{
+.sing-up {
     background-color: #F2994A;
     color: white;
 }
 
-.frame-1{
-
+.frame-1 {
+    display: flex;
 }
 
-.title-bis{
+.bisiness-reason {
+    width: 51%;
+}
+
+.busines-but {
+    display: flex;
+    flex-direction: row;
+}
+
+.business-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 175px;
+    height: 46px;
+    border: 1px solid #F2994A;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.business-button.one {
+    color: white;
+    background-color: #F2994A;
+}
+
+.business-button.two {
+    color: #F2994A;
+    margin-left: 20px;
+}
+
+.title-bis {
     font-size: 44px;
     color: #99EFD0;
     font-weight: bold;
 }
 
-.desc{
+.desc {
     color: #8476AA;
     font-size: 18px;
 }
 
-.run-man{
-   background-image: url(img/run-man.svg);
+.run-man {
+    position: absolute;
+    left: 52%;
 }
 
 main {
